@@ -1,0 +1,157 @@
+
+body {
+    text-align: center;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: "Cormorant Garamond", serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* BOTONES */
+button, .chip, .categoria {
+    background-color: #e9e4de;
+    color: #2b2b2b;
+    border: none;
+    padding: 10px 20px;
+    margin: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #f3e7d8;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #b17480;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #b2808a;
+    color: white;
+    padding: 50px 60px 70px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 34px;
+    margin-bottom: 14px;
+}
+
+.hero p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-img .boton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.boton {
+    background-color: #e9e4de;
+    color: #2b2b2b;
+    padding: 10px 22px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.tutoriales {
+    background-color: #a97883;
+    color: white;
+    padding: 50px 20px;
+}
+
+.card {
+    background-color: #e9e4de;
+    color: #2b2b2b;
+    width: 260px;
+    display: inline-block;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.ver {
+    background-color: #b2808a;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+.productos {
+    background-color: #b2808a;
+    color: white;
+    padding: 50px 20px;
+}
+
+
+.looks {
+    background-color: #b2808a;
+    color: white;
+    padding: 50px 20px;
+}
+
+.looks img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+footer {
+    background-color: #f3e7d8;
+    padding: 30px;
+}
